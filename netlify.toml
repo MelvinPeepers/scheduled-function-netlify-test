@@ -1,0 +1,6 @@
+[functions]
+directory = "netlify/functions"
+
+[[functions.schedule]]
+function = "log-message-scheduled"
+cron = "*/5 * * * *" # Every 5 minutes
