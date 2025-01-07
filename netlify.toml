@@ -2,5 +2,4 @@
 directory = "netlify/functions"
 
 [functions.scheduled-function-test]
-  schedule = "*/5 * * * *"
-
+  schedule = "0 4,16 * * *"
